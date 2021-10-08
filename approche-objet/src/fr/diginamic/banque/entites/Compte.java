@@ -41,7 +41,7 @@ public class Compte {
 
     //MyMethode
     public String toString(){
-        String affichage = (numCompte + " " + soldeCompte);
+        String affichage = (numCompte + " | " + soldeCompte);
         return affichage;
     }
 }
