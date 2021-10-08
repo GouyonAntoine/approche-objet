@@ -14,7 +14,8 @@ public class TestPersonne {
         System.out.println("Mon adresse est : " + monAdresseSecondaire.toString() +"\n");
 
         Personne antoine = new Personne("Gouyon", "Antoine", monAdresse);
-        Personne odin = new Personne("Pere", "Odin", monAdresseSecondaire);
+        Personne odin = new Personne("Pere", "Odin");
+        odin.setMyAdress(monAdresseSecondaire);
 
         System.out.println("Salutation mon ami ! \n" + antoine.toString() + "\n");
         System.out.println("Salutation mon ami ! \n" + odin.toString() + "\n");

@@ -16,6 +16,11 @@ public class Personne {
         this.myAdress = myAdress;
     }
 
+    public Personne(String nom, String prenom){
+        this.nom = nom;
+        this.prenom = prenom;
+    }
+
 
 
     //MyGetterSetter
